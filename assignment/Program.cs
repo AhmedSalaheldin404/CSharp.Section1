@@ -1,4 +1,6 @@
-﻿namespace assignment
+﻿using System.ComponentModel;
+
+namespace assignment
 {
     internal class Program
     {
@@ -58,6 +60,18 @@
             //Console.WriteLine(num2); //12
             //Console.WriteLine(num1); //10
             //in value type when we assign one to another it only take a copy of the value and if you change the orinial it won't affect the secont var
+
+            #endregion
+
+            #region Q6.Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+
+            //test t1=new test();
+            //t1.name = "ahmed";
+            //test t2=t1 ;
+            //t1.name = "mona";
+            //Console.WriteLine($"t1 name is {t1.name}");
+            //Console.WriteLine($"t2 name is {t2.name}");
+            //both outputs will be mona because in reference type the var t1 or t2 will be in stack and ref to the heap with the data but when we assign the t2 to t1 now both of them ref to the same data so if you change one of them both will be affected
 
             #endregion
         }
