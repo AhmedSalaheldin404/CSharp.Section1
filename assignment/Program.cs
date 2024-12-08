@@ -36,18 +36,29 @@
             #endregion
 
             #region Q4.Write C# program that Extract a substring from a given string
-            Console.WriteLine("Enter the main string:");
-            string mainString = Console.ReadLine();
+            //Console.WriteLine("Enter the main string:");
+            //string mainString = Console.ReadLine();
 
-            Console.WriteLine("Enter the starting position:");
-            int startPosition = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the starting position:");
+            //int startPosition = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the length :");
-            int length = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter the length :");
+            //int length = int.Parse(Console.ReadLine());
 
-            string result = string.Format("{0}", mainString.Substring(startPosition, length));
+            //string result = string.Format("{0}", mainString.Substring(startPosition, length));
 
-            Console.WriteLine($"Extracted substring: {result}");
+            //Console.WriteLine($"Extracted substring: {result}");
+            #endregion
+
+            #region Q5.Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int num1 = 5;
+            //int num2 = 10;
+            //num1 = num2;
+            //num2 += 2;
+            //Console.WriteLine(num2); //12
+            //Console.WriteLine(num1); //10
+            //in value type when we assign one to another it only take a copy of the value and if you change the orinial it won't affect the secont var
+
             #endregion
         }
     }
