@@ -35,6 +35,20 @@
             ////if we write 0 and 0 the result will be nan
             #endregion
 
+            #region Q4.Write C# program that Extract a substring from a given string
+            Console.WriteLine("Enter the main string:");
+            string mainString = Console.ReadLine();
+
+            Console.WriteLine("Enter the starting position:");
+            int startPosition = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the length :");
+            int length = int.Parse(Console.ReadLine());
+
+            string result = string.Format("{0}", mainString.Substring(startPosition, length));
+
+            Console.WriteLine($"Extracted substring: {result}");
+            #endregion
         }
     }
 }
