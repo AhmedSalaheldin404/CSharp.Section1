@@ -24,9 +24,9 @@
             ///delcare for variable for type"intger"
             ///clr will allocate 4 unitilized bytes in stack.
             ///int in c# keyword
-           // x = 5;
+            // x = 5;
 
-           // Int32 y = 10;
+            // Int32 y = 10;
 
             ///delcare for variable for type"intger"
             ///clr will allocate 4 unitilized bytes in stack.
@@ -70,7 +70,7 @@
 
             #region Part 15 Object [Coding Example]
 
-           // object o;
+            // object o;
             //declare for ref type of object ,refer for def value 
             //this ref o can refer to an instance from type object or any type
             //clr will allocate  unintialized 4 bytes in stack for the ref o
@@ -107,6 +107,30 @@
             ////discard
             //long number = 1000_000_00;
             //Console.WriteLine($"{number:c}");
+            #endregion
+
+            #region Part 17 Implicit Casting Vs Explicit Casting
+            ////int x = 10; 
+            ////long y = x;  //impiclt casting
+            ////Console.WriteLine(y);//10
+            //long x = 1000000000;
+            //checked
+            //{
+            //    int y = x.GetType() ==typeof(int)? (int)x:0; //explicit casting =unsafe
+            //    unchecked
+            //    {
+            //        Console.WriteLine(y); //10
+            //                              }
+
+            //    }
+
+            //int x = 10;
+            //double y = x; //impilict casting
+            //Console.WriteLine(y); //10
+
+            //double x = 5.5;
+            //int y=(int)x; // explict casting 
+            //Console.WriteLine(y); //5
             #endregion
 
 
