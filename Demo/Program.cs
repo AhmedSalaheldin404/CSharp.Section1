@@ -65,9 +65,40 @@
             //Console.WriteLine(p1.GetHashCode); // return hash code
             //Console.WriteLine(p1.Equals(p2)); 
             //Console.WriteLine(p2.GetType()); //return namespace.typename :demo.point (we cant override it)
-                                             
+
             #endregion
 
+            #region Part 15 Object [Coding Example]
+
+            object o;
+            //declare for ref type of object ,refer for def value 
+            //this ref o can refer to an instance from type object or any type
+            //clr will allocate  unintialized 4 bytes in stack for the ref o
+            //clr will allocate 0 bytes in heap.
+            //o=new object();
+            //o=new string("ahmed");
+
+            //////boxing
+            ////o = 10;
+            ////o = 5.5;
+            ////o = true;
+            ////o = new DateTime();
+            ////o = new DateOnly();
+            ////o = new TimeOnly ();
+            ////o = 6;
+
+            ////int Number = (int)o; //unboxing
+
+            ////parent = child
+            //o=new point();
+            //string name =(string)o;
+            ////child=child parent
+
+
+
+
+
+            #endregion
 
 
         }
