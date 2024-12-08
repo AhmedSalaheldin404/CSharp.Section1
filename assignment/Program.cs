@@ -144,6 +144,12 @@ namespace assignment
             //Console.WriteLine($"The event is on {date:MM/dd/yyyy}");
             ////answer :  C) The event is on 06/14/2024
             #endregion
+
+            #region Q13.Which of the following statements is correct about the C#.NET code snippet given below?
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
+            ////answer: F)A value 1 will be assigned to d.
+            #endregion
         }
 
     }
