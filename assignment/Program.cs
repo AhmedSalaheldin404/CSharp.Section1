@@ -138,6 +138,12 @@ namespace assignment
             //Console.WriteLine($"Today's date : {day} – {month} – {year}");
 
             #endregion
+
+            #region  Q12.What is the output of the following C# code?
+            //DateTime date = new DateTime(2024, 6, 14);
+            //Console.WriteLine($"The event is on {date:MM/dd/yyyy}");
+            ////answer :  C) The event is on 06/14/2024
+            #endregion
         }
 
     }
