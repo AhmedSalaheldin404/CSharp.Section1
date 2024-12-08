@@ -74,6 +74,17 @@ namespace assignment
             //both outputs will be mona because in reference type the var t1 or t2 will be in stack and ref to the heap with the data but when we assign the t2 to t1 now both of them ref to the same data so if you change one of them both will be affected
 
             #endregion
+
+            #region Q7.Write C# program that take two string variables and print them as one variable
+            //Console.WriteLine("Enter the first string:");
+            //string str1 = Console.ReadLine();
+
+            //Console.WriteLine("Enter the second string:");
+            //string str2 = Console.ReadLine();
+
+            //string result = str1 + str2;
+            //Console.WriteLine($"the result is {result}");
+            #endregion
         }
     }
 }
