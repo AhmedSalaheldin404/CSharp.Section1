@@ -12,13 +12,29 @@
 
             #region Q2.Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen 
             //Console.WriteLine("enter a string to convert to an integer:");
-            
+
             //string input = Console.ReadLine();
             //int.TryParse(input, out int result);
             //Console.WriteLine($"Result: {result}");
             ////if i put non numeric char such as hello  resault will be :0
 
             #endregion
+
+            #region Q3.Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+
+            //Console.WriteLine("enter the first number:");
+            //float num1 = float.Parse(Console.ReadLine());
+
+            //Console.WriteLine("enter the second number:");
+            //float num2 = float.Parse(Console.ReadLine());
+            //float result = num1 / num2;
+
+            //Console.WriteLine($"The result of dividing {num1} by {num2} is: {result}");
+            ////if we write 10.5 and 5.5 the result will be 1.9999
+            ////if we write 10 and 0 the result will be  infinity
+            ////if we write 0 and 0 the result will be nan
+            #endregion
+
         }
     }
 }
