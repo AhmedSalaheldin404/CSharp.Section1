@@ -133,6 +133,23 @@
             //Console.WriteLine(y); //5
             #endregion
 
+            #region Part 18 Parse and Convert 
+            //conver ==> class with a set of methods 
+            //Console.Write("enter you name");
+            //string? name =Console.ReadLine();
+            //Console.Write("enter your age");
+            //int age2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your salary");
+            //decimal salary = decimal.Parse(Console.ReadLine());
+            //Console.Clear();
+            //Console.Beep(1944,2000);
+            //Console.WriteLine($"your name is{name}");
+            //Console.WriteLine($"your age is{age2}");
+            //Console.WriteLine($"your salary is{salary}");
+            ////parse is a  method used for casting from string to caller datatype
+            //decimal salary2 = decimal.Parse(Console.ReadLine()??"0");
+            //Console.WriteLine(salary2);
+            #endregion
 
 
         }
