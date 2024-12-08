@@ -151,6 +151,26 @@
             //Console.WriteLine(salary2);
             #endregion
 
+            #region Part 19 TryParse
+
+            ///string x = "abosalah";
+            ///int y=Convert.ToInt32(x); //error
+            ///Console.WriteLine(y);
+
+            ///string x = "true";
+            ///bool y=bool.Parse(x);
+            ///Console.WriteLine(y); //true
+            ///x = "hamada";
+            ///y = bool.Parse(x);
+            ///Console.WriteLine(y);//error
+
+            ///string x = "10";
+   ///         int y;
+      ///     bool isparsed= int.TryParse(x, out  y);
+         ///   Console.WriteLine(isparsed);
+       
+            #endregion
+
 
         }
 
