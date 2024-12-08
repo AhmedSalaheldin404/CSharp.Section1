@@ -122,6 +122,22 @@ namespace assignment
             //string result = (temperature < 10) ? "Just Cold" :(temperature > 30) ? "Just Hot" : "Just Good";
             //Console.WriteLine($"The temperature is: {result}");
             #endregion
+
+            #region Q11.Write a program that takes the date from the user and displays it in various formats using string interpolation. Ex: Today’s date : 20 , 11 , 2001Today's date : 20 / 11 / 2001Today's date : 20 – 11 – 2001
+            //Console.WriteLine("Enter the day:");
+            //int day = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter the month:");
+            //int month = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter the year:");
+            //int year = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"Today's date : {day}, {month}, {year}");
+            //Console.WriteLine($"Today's date : {day} / {month} / {year}");
+            //Console.WriteLine($"Today's date : {day} – {month} – {year}");
+
+            #endregion
         }
 
     }
