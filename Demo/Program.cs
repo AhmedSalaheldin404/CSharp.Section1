@@ -58,6 +58,16 @@
             //Console.WriteLine(p1.X);
             #endregion
 
+            #region Part 14 Object [Methods]
+            //point p1 = new point() { X = 5, Y = 10 };
+            //point p2 = new point() { X = 5, Y = 10 };
+            //Console.WriteLine(p1.ToString()); //return demo.point
+            //Console.WriteLine(p1.GetHashCode); // return hash code
+            //Console.WriteLine(p1.Equals(p2)); 
+            //Console.WriteLine(p2.GetType()); //return namespace.typename :demo.point (we cant override it)
+                                             
+            #endregion
+
 
 
         }
