@@ -215,6 +215,17 @@
 
             #endregion
 
+            #region Part 22 String Formatting
+            //  composte string
+            int x=5,y=6;
+            string mes = string.Format("equation:{0}+{1}={2}", x, y, (x + y));
+            Console.WriteLine(mes);
+
+            //string interplation
+            mes = $"equation:{x} +{y}={x+y}";
+            Console.WriteLine(mes);
+            #endregion
+
 
         }
 
