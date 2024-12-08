@@ -20,13 +20,13 @@
 
             #region Part 11 ValueType Vs ReferenceType [Code]
             //value type
-            int x;
+            //int x;
             ///delcare for variable for type"intger"
             ///clr will allocate 4 unitilized bytes in stack.
             ///int in c# keyword
-            x = 5;
+           // x = 5;
 
-            Int32 y = 10;
+           // Int32 y = 10;
 
             ///delcare for variable for type"intger"
             ///clr will allocate 4 unitilized bytes in stack.
@@ -70,7 +70,7 @@
 
             #region Part 15 Object [Coding Example]
 
-            object o;
+           // object o;
             //declare for ref type of object ,refer for def value 
             //this ref o can refer to an instance from type object or any type
             //clr will allocate  unintialized 4 bytes in stack for the ref o
@@ -99,6 +99,16 @@
 
 
             #endregion
+
+            #region Part 16 Fractions and Discard
+            //float x = 10.5f;
+            //double y = 10.5;
+            //decimal z = 10.5m;
+            ////discard
+            //long number = 1000_000_00;
+            //Console.WriteLine($"{number:c}");
+            #endregion
+
 
 
         }
