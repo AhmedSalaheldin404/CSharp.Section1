@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace assignment
 {
@@ -84,6 +85,23 @@ namespace assignment
 
             //string result = str1 + str2;
             //Console.WriteLine($"the result is {result}");
+            #endregion
+
+            #region Q8.Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is Interest = (principal * rate * time) / 100.
+            //decimal amount, rateofinterest, time, Interest;
+            //Console.WriteLine("please enter the amount");
+            // amount=decimal.Parse(Console.ReadLine());
+            //Console.WriteLine("please enter the rateofinterest");
+            //rateofinterest = decimal.Parse(Console.ReadLine()); 
+            //Console.WriteLine("please enter the time");
+            //time = decimal.Parse(Console.ReadLine());
+            //Interest = (amount * rateofinterest * time) / 100;
+            //Console.WriteLine($"The formula for simple interest is Interest :{Interest} ");
+
+
+
+
+
             #endregion
         }
     }
