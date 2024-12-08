@@ -165,12 +165,36 @@
             ///Console.WriteLine(y);//error
 
             ///string x = "10";
-   ///         int y;
-      ///     bool isparsed= int.TryParse(x, out  y);
-         ///   Console.WriteLine(isparsed);
-       
+            ///         int y;
+            ///     bool isparsed= int.TryParse(x, out  y);
+            ///   Console.WriteLine(isparsed);
+
             #endregion
 
+            #region Part 20 Operators
+            ///int x = 10; //unary
+            ///prefix
+            ///Console.WriteLine(++x);
+            ///postfix
+            ///Console.WriteLine(x++);
+            ///
+
+            ///int x=6,y=5;
+            ///Console.WriteLine(x==y);
+            ///Console.WriteLine(x!=y);
+            ///Console.WriteLine(x>y);
+            ///Console.WriteLine(x<y);
+            ///Console.WriteLine(x<=y);
+
+            ///Console.WriteLine(!false);
+            ///Console.WriteLine(false&&true);
+            ///Console.WriteLine(false|| true);
+            ///
+
+            ///int x=10 , y=20 ;
+            ///string msg = x > y ? "x is more than y" : "x is less than y";
+
+            #endregion
 
         }
 
