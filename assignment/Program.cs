@@ -150,6 +150,12 @@ namespace assignment
             //d = Convert.ToInt32(!(30 < 20));
             ////answer: F)A value 1 will be assigned to d.
             #endregion
+
+            #region Q14.Which of the following is the correct output for the C# code given below?
+
+          //  Console.WriteLine(13 / 2 + " " + 13 % 2);
+            //answer : d) 6 1
+            #endregion
         }
 
     }
