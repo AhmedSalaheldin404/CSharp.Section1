@@ -196,6 +196,26 @@
 
             #endregion
 
+            #region Part 21 Operators Priority [Precedence] and Associtivity
+
+            /*
+             1.prefix
+            2.round ()
+            3. * % /
+            4. + -
+             
+             */
+            //int eq = 4 + 3 * 8;
+            //Console.WriteLine(eq); //28
+            ///int a = 20, b = 10, c = 15, d = 5, e ;
+            ///e=(a+b)*c/d;
+            ///e=((a+b)*c)/d;
+            ///e=(a+b)*(c/d);
+            ///e=a+(b*c)/d;
+
+            #endregion
+
+
         }
 
     }
